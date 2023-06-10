@@ -21,6 +21,7 @@ namespace CityInfoAPI.Controllers
             if (city == null ) return NoContent();
             
             return Ok(city);
-        }
+      }
+
     }
 }
