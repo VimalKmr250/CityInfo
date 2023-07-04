@@ -2,14 +2,14 @@
 
 namespace CityInfoAPI.Models
 {
-    public class PointOfInterestCreationDto
+    public class PointOfInterestUpdateDto
     {
         [Required]
         [MaxLength(10)]
-        public String Name { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
         
         [Required]
         [MaxLength(200)]
-        public String? Description { get; set; }
+        public string? Description { get; set; }
     }
 }
